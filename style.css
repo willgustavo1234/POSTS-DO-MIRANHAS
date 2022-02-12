@@ -1,0 +1,61 @@
+body{
+    background-color: aqua;
+    font-family: verdana;
+    width:900px;
+    margin:auto;
+}
+
+.photo{
+    border: 30px solid black;
+    border-radius: 50px;
+}
+
+#title, .subtitle, .post_title{
+    color:black;
+}
+
+#title{
+    font-size: 40px;
+    text-transform:uppercase;
+}
+
+a{
+    text-decoration:line-through;
+    color:aqua;
+}
+
+.post_title{
+    font-size: 35px;
+     font-style:normal;
+     margin: 0;
+     margin-bottom:15px;
+}
+
+.post{
+    background-color: aliceblue;
+    padding: 15px;
+    border: 3px solid yellow;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post_coment{
+
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform:uppercase;
+}
+
+.post_image{
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.contacts_list li a{
+    color:blue
+}
